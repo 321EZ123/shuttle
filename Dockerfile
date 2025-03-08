@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the application port (default is typically 3000 for many Node.js apps, adjust if needed)
-EXPOSE 3000
+EXPOSE 8080
 
 # Command to run the application
 CMD ["npm", "start"]
